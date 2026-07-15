@@ -4,6 +4,7 @@ clg=input("Enter college name:")
 branch=input("Enter branch:")
 skill=input("Enter skill:")
 dream=input("Enter dream company:")
+hobby=input("Enter your hobby: ")
 print(f"""
 ========== STUDENT PROFILE ==========
 Name           : {name}
@@ -12,4 +13,5 @@ College        : {clg}
 Branch         : {branch}
 Skills         : {skill}
 Dream Company  : {dream}
+Hobby          : {hobby}
 =====================================""")
